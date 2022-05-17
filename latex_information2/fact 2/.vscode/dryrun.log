@@ -1,0 +1,7 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory `/Users/sugiyamakouta/Desktop/fact 2'
+cc -Wall -g   -c -o mytimeMain.o mytimeMain.c
+cc -o mytimeMain -Wall -g mytimeMain.o mytime.o -lm
+./mytimeMain
+make: Leaving directory `/Users/sugiyamakouta/Desktop/fact 2'
+ 

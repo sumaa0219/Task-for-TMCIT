@@ -1,0 +1,8 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/sugiyamakouta/Desktop/fact'
+cc -Wall -g   -c -o factMain.o factMain.c
+cc -Wall -g   -c -o fact.o fact.c
+cc -o factMain -Wall -g factMain.o fact.o -lm
+./factMain
+make: Leaving directory `/Users/sugiyamakouta/Desktop/fact'
+ 
