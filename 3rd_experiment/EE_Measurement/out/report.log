@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  17 MAY 2022 22:42
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  17 MAY 2022 23:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/sugiyamakouta/Desktop/3rd_experiment/EE_Measurement/report.tex
-(/Users/sugiyamakouta/Desktop/3rd_experiment/EE_Measurement/report.tex
+**/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE_Measurement/report.tex
+(/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE_Measurement/report.tex
 pLaTeX2e <2021-11-15> (based on LaTeX2e <2021-11-15> patch level 1)
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2020/09/30 v1.8f Standard pLaTeX class
@@ -335,11 +335,11 @@ Overfull \hbox (24.00003pt too wide) in paragraph at lines 159--195
 [3] [4] [5] (out/report.aux) ) 
 Here is how much of TeX's memory you used:
  5611 strings out of 478724
- 92468 string characters out of 5858392
+ 92492 string characters out of 5858392
  565177 words of memory out of 5000000
  24001 multiletter control sequences out of 15000+600000
  482334 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 70i,13n,79p,311b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,13n,79p,319b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on out/report.dvi (6 pages, 14432 bytes).

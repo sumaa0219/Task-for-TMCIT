@@ -1,10 +1,10 @@
-PWD /Users/sugiyamakouta/Desktop/3rd_experiment/EE_Measurement
+PWD /Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE_Measurement
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/eptex/platex.fmt
-INPUT /Users/sugiyamakouta/Desktop/3rd_experiment/EE_Measurement/report.tex
+INPUT /Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE_Measurement/report.tex
 OUTPUT out/report.log
 INPUT /usr/local/texlive/2022/texmf-dist/tex/platex/base/jarticle.cls
 INPUT /usr/local/texlive/2022/texmf-dist/tex/platex/base/jarticle.cls
