@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  17 MAY 2022 23:20
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  18 MAY 2022 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,7 +298,39 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
 [1
 
-] [1] [2]
+]
+
+LaTeX Warning: Reference `eq:gosa' on page 1 undefined on input line 56.
+
+
+LaTeX Warning: Reference `eq:soutaigosa' on page 1 undefined on input line 62.
+
+[1]
+
+LaTeX Warning: Reference `eq:heikinchi' on page 2 undefined on input line 73.
+
+
+LaTeX Warning: Reference `eq:hyoujunhensa' on page 2 undefined on input line 80.
+
+[2]
+
+LaTeX Warning: Reference `tab:tools' on page 3 undefined on input line 119.
+
+
+LaTeX Warning: Reference `fig:circuit1' on page 3 undefined on input line 143.
+
+
+LaTeX Warning: Reference `fig:program1' on page 3 undefined on input line 144.
+
+
+LaTeX Warning: Reference `fig:circuit1' on page 3 undefined on input line 144.
+
+
+LaTeX Warning: Reference `fig:circuit2' on page 3 undefined on input line 150.
+
+
+LaTeX Warning: Reference `fig:program2' on page 3 undefined on input line 151.
+
 File: circuit1.png Graphic file (type bmp)
 <circuit1.png>
 
@@ -313,33 +345,27 @@ Overfull \hbox (15.10764pt too wide) in paragraph at lines 170--171
  [][] 
  []
 
-File: circuit1.pdf Graphic file (type pdf)
-<circuit1.pdf>
+File: kekka1.png Graphic file (type bmp)
+<kekka1.png>
+File: kekka2.png Graphic file (type bmp)
+<kekka2.png>
 
-Overfull \hbox (529.02959pt too wide) in paragraph at lines 179--180
+Overfull \hbox (15.10764pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
-File: circuit2.pdf Graphic file (type pdf)
-<circuit2.pdf>
-
-Overfull \hbox (529.02959pt too wide) in paragraph at lines 187--188
- [][] 
- []
-
-
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 159--195
-[][][][] 
- []
-
-[3] [4] [5] (out/report.aux) ) 
+! Improper \prevdepth.
+\newpage ...everypar {}\fi \par \ifdim \prevdepth 
+                                                  >\z@ \vskip -\ifdim \prevd...
+l.191 ^^I^^I^^I^^I^^I\newpage
+                              
 Here is how much of TeX's memory you used:
- 5611 strings out of 478724
- 92492 string characters out of 5858392
- 565177 words of memory out of 5000000
- 24001 multiletter control sequences out of 15000+600000
+ 5609 strings out of 478724
+ 92525 string characters out of 5858392
+ 562177 words of memory out of 5000000
+ 23998 multiletter control sequences out of 15000+600000
  482334 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  70i,13n,79p,319b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (6 pages, 14432 bytes).
+Output written on out/report.dvi (3 pages, 9084 bytes).

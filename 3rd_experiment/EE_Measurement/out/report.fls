@@ -378,10 +378,11 @@ INPUT ./circuit2.png
 INPUT ./circuit2.png
 INPUT circuit2.png
 INPUT extractbb -B cropbox -O circuit2.png
-INPUT ./circuit1.pdf
-INPUT ./circuit1.pdf
-INPUT circuit1.pdf
-INPUT ./circuit2.pdf
-INPUT ./circuit2.pdf
-INPUT circuit2.pdf
-INPUT out/report.aux
+INPUT ./kekka1.png
+INPUT ./kekka1.png
+INPUT kekka1.png
+INPUT extractbb -B cropbox -O kekka1.png
+INPUT ./kekka2.png
+INPUT ./kekka2.png
+INPUT kekka2.png
+INPUT extractbb -B cropbox -O kekka2.png
