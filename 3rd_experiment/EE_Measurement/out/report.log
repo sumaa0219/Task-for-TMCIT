@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  18 MAY 2022 11:37
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  18 MAY 2022 14:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,39 +298,7 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 12.
 [1
 
-]
-
-LaTeX Warning: Reference `eq:gosa' on page 1 undefined on input line 56.
-
-
-LaTeX Warning: Reference `eq:soutaigosa' on page 1 undefined on input line 62.
-
-[1]
-
-LaTeX Warning: Reference `eq:heikinchi' on page 2 undefined on input line 73.
-
-
-LaTeX Warning: Reference `eq:hyoujunhensa' on page 2 undefined on input line 80.
-
-[2]
-
-LaTeX Warning: Reference `tab:tools' on page 3 undefined on input line 119.
-
-
-LaTeX Warning: Reference `fig:circuit1' on page 3 undefined on input line 143.
-
-
-LaTeX Warning: Reference `fig:program1' on page 3 undefined on input line 144.
-
-
-LaTeX Warning: Reference `fig:circuit1' on page 3 undefined on input line 144.
-
-
-LaTeX Warning: Reference `fig:circuit2' on page 3 undefined on input line 150.
-
-
-LaTeX Warning: Reference `fig:program2' on page 3 undefined on input line 151.
-
+] [1] [2]
 File: circuit1.png Graphic file (type bmp)
 <circuit1.png>
 
@@ -354,18 +322,46 @@ Overfull \hbox (15.10764pt too wide) in paragraph at lines 186--187
  [][] 
  []
 
-! Improper \prevdepth.
-\newpage ...everypar {}\fi \par \ifdim \prevdepth 
-                                                  >\z@ \vskip -\ifdim \prevd...
-l.191 ^^I^^I^^I^^I^^I\newpage
-                              
+
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 159--192
+[][][][] 
+ []
+
+[3]
+File: circuit1.pdf Graphic file (type pdf)
+<circuit1.pdf>
+
+Overfull \hbox (529.02959pt too wide) in paragraph at lines 200--201
+ [][] 
+ []
+
+File: circuit2.pdf Graphic file (type pdf)
+<circuit2.pdf>
+
+Overfull \hbox (529.02959pt too wide) in paragraph at lines 208--209
+ [][] 
+ []
+
+
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 197--215
+[][][][] 
+ []
+
+
+Overfull \hbox (24.24126pt too wide) in paragraph at lines 386--389
+[]\JY1/mc/m/n/10.95 この実験における理想の平均値と標準偏差はそれぞれ \OT1/cmr/m/n/10.95 3.0[V],0 \JY1/mc/m/n/10.95 である 。 なぜなら \OT1/cmr/m/n/10.95 AO0 \JY1/mc/m/n/10.95 から \OT1/cmr/m/n/10.95 5.0[V],3.3[V],0.0[V]
+ []
+
+File: m20060/kinji.pdf Graphic file (type pdf)
+<m20060/kinji.pdf>
+[4] [5] [6] [7] [8] [9] [10] (out/report.aux) ) 
 Here is how much of TeX's memory you used:
- 5609 strings out of 478724
- 92525 string characters out of 5858392
- 562177 words of memory out of 5000000
- 23998 multiletter control sequences out of 15000+600000
+ 5639 strings out of 478724
+ 92937 string characters out of 5858392
+ 618177 words of memory out of 5000000
+ 24022 multiletter control sequences out of 15000+600000
  482334 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  70i,13n,79p,319b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (3 pages, 9084 bytes).
+Output written on out/report.dvi (11 pages, 41536 bytes).

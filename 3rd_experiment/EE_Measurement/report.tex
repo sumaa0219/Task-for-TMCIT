@@ -188,9 +188,14 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 						\label{fig:kekka2}
 						
 					\end{minipage}
-					\newpage
+					\end{tabular}
+				\end{figure}
 
-					\begin{minipage}[c]{0.5\linewidth}
+				\newpage
+
+				\begin{figure}[b]
+					\begin{tabular}{cc}
+						\begin{minipage}[c]{0.5\linewidth}
 						\centering
 						\includegraphics[keepaspectratio,scale=1.2]{circuit1.pdf}
 						\caption{課題実験1の回路図}
@@ -206,15 +211,19 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 						
 					\end{minipage}
 
+					\end{tabular}
 
-				\end{tabular}
-			\end{figure}
+
+				\end{figure}
+					
+
 
 
 \section{結果}
 	\subsection{課題実験１の実験結果}
-		実験の結果、下の表\ref{tab:hensa}は各電圧ごとの平均値と標準偏差をまとめたものである。
-		この表から平均値を標準偏差は0Vの場合0.007202[V],1.68614E-07、3.3Vの場合3.26400127[V],1.33956E-07、5Vの場合4.9806267[V]3,1.68614E-07となった。
+		表\ref{tab:0}は出力電圧が0[V]の時、表\ref{tab:3.3}は出力電圧が3.3[V]の時、表\ref{tab:5}は出力電圧が5[V]の時の出力結果の表である。
+		また、下の表\ref{tab:hensa}は各電圧ごとの平均値と標準偏差をまとめたものである。
+		この表から平均値や標準偏差は0Vの場合0.007202[V],1.68614E-07、3.3Vの場合3.26400127[V],1.33956E-07、5Vの場合4.9806267[V]3,1.68614E-07となった。
 
 
 
@@ -312,7 +321,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\begin{table}[b]
 				\centering
 				\caption{5[V]の時の出力結果}
-				label{tab:5[V]}
+				\label{tab:5}
 				\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 					\hline
 					測定回数&測定電圧&測定回数&測定電圧&測定回数&測定電圧&測定回数&測定電圧\\
@@ -344,21 +353,67 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 				24 & 4.980468 & 49 & 4.980468 & 74 & 4.980468 & 99 & 4.980468\\
 				\hline
 				\end{tabular}
-				\end{table}
+			\end{table}
+
+				\begin{table}[b]
+					\centering
+					\caption{課題実験２の出力結果}
+					\label{tab:task2}
+					\begin{tabular}{|c|c|c|c|c|}
+					\hline
+					計測回数&電圧&計測電圧&誤差gosa\\
+					\hline
+					0  & 0   & 0.007324 & -0.00732 \\
+					1  & 0.5 & 0.499268 & 0.000732 \\
+					2  & 1   & 0.997314 & 0.002686 \\
+					3  & 1.5 & 1.496582 & 0.003418 \\
+					4  & 2   & 1.995849 & 0.004151 \\
+					5  & 2.5 & 2.496338 & 0.003662 \\
+					6  & 3   & 2.996826 & 0.003174 \\
+					7  & 3.5 & 3.497314 & 0.002686 \\
+					8  & 4   & 3.997802 & 0.002198 \\
+					9  & 4.5 & 4.498291 & 0.001709 \\
+					10 & 5   & 4.997558 & 0.002442\\
+					\hline
+					\end{tabular}
+					\end{table}
 
 	\subsection{課題実験２の実験結果}
-		実験の結果、二乗平均平方誤差は1.49994E-10となった。
+		表\ref{tab:task2}は課題実験２の出力結果である。
+		またこの結果よりyori二乗平均平方誤差は1.49994E-10となった。
 \section{考察}
 	\subsection{課題実験１の考察}
 	この実験における理想の平均値と標準偏差はそれぞれ3.0[V],0である。
-	なぜならAO0から5.0[V],3.3[V],0.0[V]を出力しているのでAI0の入力もその値になることが理想である。
+	なぜならAO0から5.0[V],3.3[V],0.0[V]を出力しているためAI0からの入力もその値になることが理想である。
 	また、標準偏差も理想は出力値と計測値が同じはずなので0になることが理想であると考察する。
 
 	\subsection{課題実験２の実験結果の考察}
 	図\ref{fig:kinji}は出力電圧表示値と計測電圧表示値の関係をグラフにし、近似曲線求めたものである。
-	また表\ref{tab:grah}
+	またこの近似曲線における傾きの理想の値は1であり、切片は0であると考える。
+	実際に傾きを式\ref{katamuki}から求めると$a=0.999289673$となった。
+	また、切片は表\ref{tab:task2}より$0.007324$であった。
+	このように理想の値と実際の値で差が生じた原因としてMyRIOのポートにあるプルアップ抵抗によって生じたのだと考える。
+
+
+	\begin{equation}
+		a=\frac{\Delta y}{\Delta x}
+		\label{katamuki}
+	\end{equation}
+
+	
+	\begin{figure}[b]
+		\centering
+		\includegraphics[keepaspectratio,scale=01.0]{m20060/kinji.pdf}
+		\caption{出力電圧と計測電圧の散布図と近似曲線}
+		\label{fig:kinji}
+	\end{figure}
 
 \section{結論}
+\begin{itemize}
+	\item LabVIEWとMyRIOを使用して、素子の電圧電流特性について自動計測の方法を習得ことができた。
+	\item 測定データから近似直線式の傾き、切片を求める計算方法を習得することができた。
+	\item 
+\end{itemize}
 
 \begin{thebibliography}{9}%参考文献数が10以上の場合は9を99に変更
 	%\bibitem{xxx}の引用を本文中で行うには\cite{xxx}と記述。

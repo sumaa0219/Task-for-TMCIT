@@ -386,3 +386,14 @@ INPUT ./kekka2.png
 INPUT ./kekka2.png
 INPUT kekka2.png
 INPUT extractbb -B cropbox -O kekka2.png
+INPUT ./circuit1.pdf
+INPUT ./circuit1.pdf
+INPUT circuit1.pdf
+INPUT ./circuit2.pdf
+INPUT ./circuit2.pdf
+INPUT circuit2.pdf
+INPUT ./m20060/kinji.pdf
+INPUT ./m20060/kinji.pdf
+INPUT m20060/kinji.pdf
+INPUT extractbb -B cropbox -O m20060/kinji.pdf
+INPUT out/report.aux
