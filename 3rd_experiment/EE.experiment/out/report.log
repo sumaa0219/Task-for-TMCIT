@@ -1,9 +1,9 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  18 MAY 2022 22:31
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  20 MAY 2022 09:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE_Measurement/report.tex
-(/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE_Measurement/report.tex
+**/Users/sugiyamakouta/Documents/document/3rd-archive/experiment/電子計測/report.tex
+(/Users/sugiyamakouta/Documents/document/3rd-archive/experiment/電子計測/report.tex
 pLaTeX2e <2021-11-15> (based on LaTeX2e <2021-11-15> patch level 1)
 L3 programming layer <2022-02-24> (/usr/local/texlive/2022/texmf-dist/tex/platex/base/jarticle.cls
 Document Class: jarticle 2020/09/30 v1.8f Standard pLaTeX class
@@ -356,12 +356,12 @@ File: m20060/kinji.pdf Graphic file (type pdf)
 <m20060/kinji.pdf>
 [4] [5] [6] [7] [8] [9] [10] (out/report.aux) ) 
 Here is how much of TeX's memory you used:
- 5639 strings out of 478724
- 92937 string characters out of 5858392
+ 5640 strings out of 478724
+ 93024 string characters out of 5858392
  618177 words of memory out of 5000000
  24022 multiletter control sequences out of 15000+600000
  482334 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 70i,13n,79p,319b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,13n,79p,324b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (11 pages, 41528 bytes).
+Output written on out/report.dvi (11 pages, 41516 bytes).
