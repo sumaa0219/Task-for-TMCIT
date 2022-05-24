@@ -1,7 +1,8 @@
-make --dry-run --keep-going --print-directory
-make: Entering directory `/Users/sugiyamakouta/Desktop/fact 2'
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/sugiyamakouta/Desktop/workDir/latex_information2/fact2'
 cc -Wall -g   -c -o mytimeMain.o mytimeMain.c
+cc -Wall -g   -c -o mytime.o mytime.c
 cc -o mytimeMain -Wall -g mytimeMain.o mytime.o -lm
 ./mytimeMain
-make: Leaving directory `/Users/sugiyamakouta/Desktop/fact 2'
+make: Leaving directory `/Users/sugiyamakouta/Desktop/workDir/latex_information2/fact2'
  
