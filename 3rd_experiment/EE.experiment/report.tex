@@ -121,17 +121,17 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 	\caption{使用した実験器具}
 	\label{tab:tools}
 	\centering
-	\begin{tabular}{|c|c|c|}
+	\begin{tabular}{|c|c|c|c|}
 		\hline
-		製品名　& 製造元　& 型番\\
+		製品名　& 製造元　& 型番 & シリアル番号\\
 		\hline \hline
-		ノートパソコン & iiyama & NKNK50SZ0000K0099\\
+		ノートパソコン & iiyama &NK50SZ& NKNK50SZ0000K0099\\
 		\hline
-		MyRIO & ANATEL & 30877F9\\
+		MyRIO & ANATEL &TiFi-BLE& 30877F9\\
 		\hline
-		MXP Breadboard & DIGILENT & D537697\\
+		MXP Breadboard & DIGILENT &MXP Breadboard& D537697\\
 		\hline
-		LabVIEW2019 & NATIONAL INSTRUMENTS & ver:19.0.1f3\\
+		LabVIEW & NATIONAL INSTRUMENTS &LabVIEW2019& ver:19.0.1f3\\
 		\hline
 	\end{tabular}
 	
@@ -152,10 +152,10 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\item AO0の値、AI0の値、AO0からAI0を引いた値、通し番号を出力しExcelにまとめる。
 			\item まとめたExcelから二乗平均平方誤差を求める。
 		\end{enumerate}
+		\newpage
 
 
-
-			\begin{figure}[b]
+			\begin{figure}[h]
 				\begin{tabular}{cc}
 					\begin{minipage}[c]{0.5\linewidth}
 						\centering
@@ -250,7 +250,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\label{tab:0}
 			\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 				\hline
-			測定回数&測定電圧&測定回数&測定電圧&測定回数&測定電圧&測定回数&測定電圧\\
+			測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}\\
 			\hline
 			0  & 0.007324 & 25 & 0.007324 & 50 & 0.007324 & 75 & 0.007324 \\
 			1  & 0.007324 & 26 & 0.007324 & 51 & 0.007324 & 76 & 0.007324 \\
@@ -287,7 +287,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\label{tab:3.3}
 			\begin{tabular}{|c|c|c|c|c|c|c|c|}
 				\hline
-			測定回数&測定電圧&測定回数&測定電圧&測定回数&測定電圧&測定回数&測定電圧\\
+			測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}\\
 			\hline
 			0  & 3.26416  & 25 & 3.26416  & 50 & 3.26416 & 75 & 3.262939 \\
 			1  & 3.26416  & 26 & 3.26416  & 51 & 3.26416 & 76 & 3.262939 \\
@@ -324,7 +324,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 				\label{tab:5}
 				\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 					\hline
-					測定回数&測定電圧&測定回数&測定電圧&測定回数&測定電圧&測定回数&測定電圧\\
+					測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}\\
 					\hline
 				0  & 4.981689 & 25 & 4.980468 & 50 & 4.980468 & 75 & 4.980468 \\
 				1  & 4.980468 & 26 & 4.980468 & 51 & 4.980468 & 76 & 4.980468 \\
@@ -361,7 +361,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 					\label{tab:task2}
 					\begin{tabular}{|c|c|c|c|c|}
 					\hline
-					計測回数&電圧&計測電圧&誤差\\
+					計測回数[回]&電圧[V]&計測電圧[V]&誤差[V]\\
 					\hline
 					0  & 0   & 0.007324 & -0.00732 \\
 					1  & 0.5 & 0.499268 & 0.000732 \\
