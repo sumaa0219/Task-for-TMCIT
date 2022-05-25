@@ -6,7 +6,11 @@
 \renewcommand{\labelenumi}{\alph{enumi}}
 \renewcommand{\labelenumii}{\roman{enumii}}
 
+\newcounter{mycounter} % カウンタの宣言
+\setcounter{mycounter}{0} % カウンタの初期化
+\newcommand{\useMycounter}[1][]{\refstepcounter{mycounter}{#1}プログラム{\themycounter}: }
 \begin{document}
+
 % トップページを書く
 \begin{jikkenTitle}
 	\gakunen{3} % 学年を記述。この行で全体の枠を表示
@@ -70,14 +74,14 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 左右対称の釣鐘型に値が分布しているのを正規分布といい、山の頂点に平均値がくる。
 
 \subsubsection{平均値}
-平均値とは$N$個全てのデータの総和を$N$個で割って得られる値で、\weq{heikinchi}で表すことができる。
+\cite{a}平均値とは$N$個全てのデータの総和を$N$個で割って得られる値で、\weq{heikinchi}で表すことができる。
 \begin{equation}
 	\bar{y} = \frac{1}{N}\sum^N_{i = 1}y_i
 	\label{eq:heikinchi}
 \end{equation}		
 
 \subsubsection{標準偏差}
-標準偏差とは平均値を基準に各測定量がどれほどのばらついているかを定量的に表す値で、\weq{hyoujunhensa}で表すことができる。
+\cite{a}標準偏差とは平均値を基準に各測定量がどれほどのばらついているかを定量的に表す値で、\weq{hyoujunhensa}で表すことができる。
 \begin{equation}
 	\sigma = \sqrt{\frac{1}{N - 1}\sum^N_{i = 1}(y_i - \bar{y})^2}
 	\label{eq:hyoujunhensa}
@@ -85,7 +89,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 
 \subsection{近似直線（最小二乗法）}
 %。
-2つの測定データ$y, x$間に一次方程式の関係があるとし、
+\cite{a}2つの測定データ$y, x$間に一次方程式の関係があるとし、
 \begin{equation}
 	y = ax + b
 	\label{eq:aiu}
@@ -140,60 +144,22 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 \subsection{実験手順}
 	\subsubsection{課題実験１}
 		\begin{enumerate}
-			\item ブレッドボートを図\ref{fig:circuit1}のように組み立てMyRIOのAポートに接続する。
-			\item 図\ref{fig:program1}のようなプログラムを書き図\ref{fig:circuit1}の端子を、GND,3.3V,5Vになぎ変えながら3回実行する。
+			\item ブレッドボートを図\ref{fig:circuit1}のように組み立てMyRIOのAポートに接続した。
+			\item 図\ref{fig:circuit1}の端子の値が変化するように、GND, 3.3V, 5Vになぎ変えながら3回実行した。
 			\item 出力した結果をもとにエクセルを使用し、平均値と標準偏差を求めた。
 		\end{enumerate}
 
 	\subsubsection{課題実験２}
 		\begin{enumerate}
-			\item ブレッドボートを図\ref{fig:circuit2}のように組み立てMyRIOのAポートに接続する。
-			\item 図\ref{fig:program2}のようなプログラムを書き0Vから5Vまで0.5V刻みでAO0から出力する。
-			\item AO0の値、AI0の値、AO0からAI0を引いた値、通し番号を出力しExcelにまとめる。
-			\item まとめたExcelから二乗平均平方誤差を求める。
+			\item ブレッドボートを図\ref{fig:circuit2}のように組み立てMyRIOのAポートに接続した。
+			\item AI0へ0Vから5Vまで0.5V刻みでAO0から出力した。
+			\item AO0の値、AI0の値、AO0からAI0を引いた値、通し番号を出力しExcelにまとめた。
+			\item まとめたExcelから二乗平均平方誤差を求めた。
 		\end{enumerate}
+		
 		\newpage
 
-
-			\begin{figure}[h]
-				\begin{tabular}{cc}
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=0.45]{circuit1.png}
-						\caption{課題実験１のプログラム}
-						\label{fig:program1}
-		
-					\end{minipage}&
-		
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=0.4]{circuit2.png}
-						\caption{課題実験2のプログラム}
-						\label{fig:program2}
-						
-					\end{minipage}\\
-
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=0.4]{kekka1.png}
-						\caption{課題実験1の出力結果}
-						\label{fig:kekka1}
-						
-					\end{minipage}&
-		
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=0.4]{kekka2.png}
-						\caption{課題実験2の出力結果}
-						\label{fig:kekka2}
-						
-					\end{minipage}
-					\end{tabular}
-				\end{figure}
-
-				\newpage
-
-				\begin{figure}[b]
+				\begin{figure}[h]
 					\begin{tabular}{cc}
 						\begin{minipage}[c]{0.5\linewidth}
 						\centering
@@ -221,36 +187,77 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 
 \section{結果}
 	\subsection{課題実験１の実験結果}
+		プログラム\ref{program1}は課題実験１のプログラムであり結果\ref{fig:kekka1}はその出力結果である。
 		表\ref{tab:0}は出力電圧が0[V]の時、表\ref{tab:3.3}は出力電圧が3.3[V]の時、表\ref{tab:5}は出力電圧が5[V]の時の出力結果の表である。
 		また、下の表\ref{tab:hensa}は各電圧ごとの平均値と標準偏差をまとめたものである。
-		この表から平均値や標準偏差は0Vの場合0.007202[V],1.68614E-07、3.3Vの場合3.26400127[V],1.33956E-07、5Vの場合4.9806267[V]3,1.68614E-07となった。
+		この表から平均値や標準偏差は0Vの場合0.007202[V],1.68614[V]、3.3Vの場合3.26400127[V],1.33956[V]、5Vの場合4.9806267[V]3,1.68614[V]となった。
 
+				
 
-
-		\begin{table}[hbtp]
+		\begin{table}[h]
 			\caption{課題実験１の各電圧ごとの標準偏差}
 			\centering
 			\label{tab:hensa}
 			\begin{tabular}{|c|c|c|}
 				\hline
-				電圧	&	平均値	&	標準誤差\\
+				電圧[V]	&	平均値[V]	&	標準誤差[V]\\
 				\hline \hline
-				0[V]		&0.007202&	1.68614E-07\\
+				0[V]		&0.007202&	1.68614\\
 				\hline
-				3.3[V]	&3.26400127&	1.33956E-07\\
+				3.3[V]	&3.26400127&	1.33956\\
 				\hline
-				5[V]		&4.98062673&	1.68614E-07\\
+				5[V]		&4.98062673&	1.68614\\
 				\hline
 			\end{tabular}
 		\end{table}
+		
 
-		\begin{table}[b]
+		\newpage
+
+			\begin{figure}[htbp]
+				\begin{tabular}{cc}
+					\begin{minipage}[c]{0.5\linewidth}
+						\centering
+						\includegraphics[keepaspectratio,scale=0.5]{circuit1.png}
+						\useMycounter[\label{program1}]課題実験１
+		
+					\end{minipage}&
+		
+					\begin{minipage}[c]{0.5\linewidth}
+						\centering
+						\includegraphics[keepaspectratio,scale=0.5]{circuit2.png}
+						\useMycounter[\label{program2}]課題実験2
+						
+					\end{minipage}\\\\\\
+
+					
+
+					\begin{minipage}[c]{0.5\linewidth}
+						\centering
+						\includegraphics[keepaspectratio,scale=0.4]{kekka1.png}
+						\caption{課題実験1の出力結果}
+						\label{fig:kekka1}
+						
+					\end{minipage}&
+		
+					\begin{minipage}[c]{0.5\linewidth}
+						\centering
+						\includegraphics[keepaspectratio,scale=0.4]{kekka2.png}
+						\caption{課題実験2の出力結果}
+						\label{fig:kekka2}
+						
+					\end{minipage}
+					\end{tabular}
+				\end{figure}
+
+
+		\begin{table}[h]
 			\caption{0[V]の時の出力結果}
 			\centering
 			\label{tab:0}
 			\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 				\hline
-			測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}\\
+			測定回数&測定電圧[V]&測定回数&測定電圧[V]&測定回数&測定電圧[V]&測定回数&測定電圧[V]\\
 			\hline
 			0  & 0.007324 & 25 & 0.007324 & 50 & 0.007324 & 75 & 0.007324 \\
 			1  & 0.007324 & 26 & 0.007324 & 51 & 0.007324 & 76 & 0.007324 \\
@@ -281,13 +288,13 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\end{tabular}
 			\end{table}
 
-		\begin{table}[b]
+		\begin{table}[h]
 			\centering
 			\caption{3.3[V]の時の出力結果}
 			\label{tab:3.3}
 			\begin{tabular}{|c|c|c|c|c|c|c|c|}
 				\hline
-			測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}&測定回数&{測定電圧[V]}\\
+			測定回数&測定電圧[V]&測定回数&測定電圧[V]&測定回数&測定電圧[V]&測定回数&測定電圧[V]\\
 			\hline
 			0  & 3.26416  & 25 & 3.26416  & 50 & 3.26416 & 75 & 3.262939 \\
 			1  & 3.26416  & 26 & 3.26416  & 51 & 3.26416 & 76 & 3.262939 \\
@@ -318,7 +325,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\end{tabular}
 			\end{table}
 
-			\begin{table}[b]
+			\begin{table}[h]
 				\centering
 				\caption{5[V]の時の出力結果}
 				\label{tab:5}
@@ -355,7 +362,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 				\end{tabular}
 			\end{table}
 
-				\begin{table}[b]
+				\begin{table}[h]
 					\centering
 					\caption{課題実験２の出力結果}
 					\label{tab:task2}
@@ -379,12 +386,13 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 					\end{table}
 
 	\subsection{課題実験２の実験結果}
+	　プログラム\ref{program2}は課題実験１のプログラムであり結果\ref{fig:kekka2}はその出力結果である。
 		表\ref{tab:task2}は課題実験２の出力結果である。
-		またこの結果よりyori二乗平均平方誤差は1.49994E-10となった。
+		またこの結果より二乗平均平方誤差は1.49994[V]となった。
 \section{考察}
 	\subsection{課題実験１の考察}
-	この実験における理想の平均値と標準偏差はそれぞれ3.0[V],0である。
-	なぜならAO0から5.0[V],3.3[V],0.0[V]を出力しているためAI0からの入力もその値になることが理想である。
+	この実験における理想の平均値と標準偏差はそれぞれ5.0[V], 3.0[V], 0[V]である。
+	なぜならAO0から5.0[V], 3.3[V], 0.0[V]を出力しているためAI0からの入力もその値になることが理想である。
 	また、標準偏差も理想は出力値と計測値が同じはずなので0になることが理想であると考察する。
 
 	\subsection{課題実験２の実験結果の考察}
