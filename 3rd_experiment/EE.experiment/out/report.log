@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  25 MAY 2022 10:57
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  30 MAY 2022 21:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -300,17 +300,29 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 16.
 [1
 
-] [1] [2] [3]
+] [1] [2]
 File: circuit1.pdf Graphic file (type pdf)
 <circuit1.pdf>
 File: circuit2.pdf Graphic file (type pdf)
 <circuit2.pdf>
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 163--181
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 161--179
 [][][][] 
  []
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3]
+File: potention_paramerter.pdf Graphic file (type pdf)
+<potention_paramerter.pdf>
 [4]
+File: ex2_circuit1.pdf Graphic file (type pdf)
+<ex2_circuit1.pdf>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5]
 File: circuit1.png Graphic file (type bmp)
 <circuit1.png>
 File: circuit2.png Graphic file (type bmp)
@@ -320,53 +332,49 @@ File: kekka1.png Graphic file (type bmp)
 File: kekka2.png Graphic file (type bmp)
 <kekka2.png>
 
-Overfull \hbox (15.10764pt too wide) in paragraph at lines 245--246
+Overfull \hbox (15.10764pt too wide) in paragraph at lines 293--294
  [][] 
  []
 
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 218--251
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 266--299
 [][][][] 
  []
 
 
-Overfull \hbox (16.26895pt too wide) in paragraph at lines 258--289
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (16.26895pt too wide) in paragraph at lines 307--338
+ [][][][] 
+ []
+
+
+Overfull \hbox (16.26895pt too wide) in paragraph at lines 344--375
+ [][][][] 
+ []
+
+
+Overfull \hbox (16.26895pt too wide) in paragraph at lines 381--412
  [][][][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (16.26895pt too wide) in paragraph at lines 295--326
- [][][][] 
- []
-
+File: m20060/kinji.png Graphic file (type bmp)
+<m20060/kinji.png>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (16.26895pt too wide) in paragraph at lines 332--363
- [][][][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5]
-File: m20060/kinji.pdf Graphic file (type pdf)
-<m20060/kinji.pdf>
-[6] [7] [8] [9] (out/report.aux) ) 
+[6] [7] [8] [9] [10] [11] (out/report.aux) ) 
 Here is how much of TeX's memory you used:
- 5645 strings out of 478724
- 92997 string characters out of 5858392
- 621177 words of memory out of 5000000
- 24028 multiletter control sequences out of 15000+600000
+ 5659 strings out of 478724
+ 93362 string characters out of 5858392
+ 618177 words of memory out of 5000000
+ 24038 multiletter control sequences out of 15000+600000
  482334 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
  70i,13n,79p,318b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (10 pages, 41844 bytes).
+Output written on out/report.dvi (12 pages, 45884 bytes).

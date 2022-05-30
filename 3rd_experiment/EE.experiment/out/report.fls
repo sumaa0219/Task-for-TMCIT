@@ -378,6 +378,14 @@ INPUT ./circuit2.pdf
 INPUT ./circuit2.pdf
 INPUT circuit2.pdf
 INPUT extractbb -B cropbox -O circuit2.pdf
+INPUT ./potention_paramerter.pdf
+INPUT ./potention_paramerter.pdf
+INPUT potention_paramerter.pdf
+INPUT extractbb -B cropbox -O potention_paramerter.pdf
+INPUT ./ex2_circuit1.pdf
+INPUT ./ex2_circuit1.pdf
+INPUT ex2_circuit1.pdf
+INPUT extractbb -B cropbox -O ex2_circuit1.pdf
 INPUT ./circuit1.png
 INPUT ./circuit1.png
 INPUT circuit1.png
@@ -392,8 +400,8 @@ INPUT ./kekka2.png
 INPUT ./kekka2.png
 INPUT kekka2.png
 INPUT extractbb -B cropbox -O kekka2.png
-INPUT ./m20060/kinji.pdf
-INPUT ./m20060/kinji.pdf
-INPUT m20060/kinji.pdf
-INPUT extractbb -B cropbox -O m20060/kinji.pdf
+INPUT ./m20060/kinji.png
+INPUT ./m20060/kinji.png
+INPUT m20060/kinji.png
+INPUT extractbb -B cropbox -O m20060/kinji.png
 INPUT out/report.aux

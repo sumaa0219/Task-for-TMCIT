@@ -1,10 +1,10 @@
 # Fdb version 3
-["dvipdf"] 1653443837 "out/report.dvi" "out/report.pdf" "out/report" 1653443838
-  "out/report.dvi" 1653443837 41844 b9a97370247e3e9c92badd1c2ddd5a0a "latex"
+["dvipdf"] 1653912428 "out/report.dvi" "out/report.pdf" "out/report" 1653912429
+  "out/report.dvi" 1653912427 45884 f1a22b5cbf259cd8e192eb5b0505b7d5 "latex"
   (generated)
   "out/report.pdf"
-["latex"] 1653443835 "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE.experiment/report.tex" "out/report.dvi" "report" 1653443838
-  "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE.experiment/report.tex" 1653443835 19398 23f9d86b428bdda0f7f5c0cd324a8b97 ""
+["latex"] 1653912425 "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE.experiment/report.tex" "out/report.dvi" "report" 1653912429
+  "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE.experiment/report.tex" 1653912423 21908 e9f171685545009131ffbe73df7ac1a8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1463434352 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -63,17 +63,19 @@
   "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
   "/usr/local/texlive/2022/texmf-var/web2c/eptex/platex.fmt" 1651017159 2827149 97596a48846d892944ef80705a5b959c ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "circuit1.pdf" 1652880987 14303 749283b0619613c68e52dcfc9df43dde ""
+  "circuit1.pdf" 1653911012 13707 f9c51837dc28c2c81937c424a86fafe6 ""
   "circuit1.png" 1652880987 53121 f76f450a2d45e8eb798fd54258d3645b ""
-  "circuit2.pdf" 1652880987 13729 e554abee4cf30c495e423d3d89ef056b ""
+  "circuit2.pdf" 1653911009 13730 61c182c52b0acaa8352da7d117facb17 ""
   "circuit2.png" 1652880987 64066 442e88747120a28f48263d86f2bb183b ""
   "eee.sty" 1652880987 5373 e5dfd7252849f9b42f3a35e8b53a4c1b ""
+  "ex2_circuit1.pdf" 1653911015 25563 8e15e52ef3faf2a00ff2f4ebc6be24dc ""
   "jlisting.sty" 1652880987 6311 39acaca7319a5dae73524888cbf7591f ""
   "kekka1.png" 1652880987 128617 d9bf806b878ac2ab6cda3eb954f21983 ""
   "kekka2.png" 1652880987 87672 c557e0a1c117a32a9446a230d3c55d22 ""
-  "m20060/kinji.pdf" 1652880987 20562 a01df716a87f2f73f11678067ed7e51f ""
-  "out/report.aux" 1653443837 5140 eac45bf247a66da2624575a6b5f96407 "latex"
-  "report.tex" 1653443835 19398 23f9d86b428bdda0f7f5c0cd324a8b97 ""
+  "m20060/kinji.png" 1653873554 137839 9a1454f6f3eb4725a5377dfb7d04f87e ""
+  "out/report.aux" 1653912427 5619 799770d68298d30c5263425128ac439f "latex"
+  "potention_paramerter.pdf" 1653911017 14090 47fa50c4ac12efa8867d43f928d80e1f ""
+  "report.tex" 1653912423 21908 e9f171685545009131ffbe73df7ac1a8 ""
   (generated)
   "out/report.aux"
   "out/report.dvi"

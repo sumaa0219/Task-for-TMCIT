@@ -143,45 +143,93 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 
 \subsection{実験手順}
 	\subsubsection{課題実験１}
-		\begin{enumerate}
+		\begin{enumerate}[a.]
 			\item ブレッドボートを図\ref{fig:circuit1}のように組み立てMyRIOのAポートに接続した。
 			\item 図\ref{fig:circuit1}の端子の値が変化するように、GND, 3.3V, 5Vになぎ変えながら3回実行した。
 			\item 出力した結果をもとにエクセルを使用し、平均値と標準偏差を求めた。
 		\end{enumerate}
 
 	\subsubsection{課題実験２}
-		\begin{enumerate}
+		\begin{enumerate}[a.]
 			\item ブレッドボートを図\ref{fig:circuit2}のように組み立てMyRIOのAポートに接続した。
 			\item AI0へ0Vから5Vまで0.5V刻みでAO0から出力した。
 			\item AO0の値、AI0の値、AO0からAI0を引いた値、通し番号を出力しExcelにまとめた。
 			\item まとめたExcelから二乗平均平方誤差を求めた。
 		\end{enumerate}
-		
-		\newpage
+
+		\begin{figure}[h]
+			\begin{tabular}{cc}
+				\begin{minipage}[c]{0.5\linewidth}
+				\centering
+				\includegraphics[keepaspectratio,scale=1.2]{circuit1.pdf}
+				\caption{課題実験1の回路図}
+				\label{fig:circuit1}
+				
+			\end{minipage}&
+
+			\begin{minipage}[c]{0.5\linewidth}
+				\centering
+				\includegraphics[keepaspectratio,scale=1.2]{circuit2.pdf}
+				\caption{課題実験2の回路図}
+				\label{fig:circuit2}
+				
+			\end{minipage}
+
+			\end{tabular}
+
+		\end{figure}
+
+	\subsubsection{素子の電圧電流特性}
+	各種実験は図\ref{fig:circuit3}の回路を使用し、測定対象素子の部分を変更しながら行った。
+		\begin{enumerate}[1.]
+			\item 固定抵抗の電圧電流特性
+				\begin{enumerate}[a.]
+					\item 観測対象素子を固定抵抗$1k[\Omega]$ とすた。
+					\item $R_0$の抵抗値を$100[\Omega], 1k[\Omega], 10k[\Omega], 100k[\Omega]$と変化させた。
+					\item 0.25[V]ずつ0~5[V]まで電圧を変化させ続け、その結果をもとに各抵抗における散布図を作成した。
+				\end{enumerate}
+			\item 可変抵抗の電圧電流特性
+				\begin{enumerate}[a.]
+					\item $R_0を1k[\Omega]$とし、図\ref{fig:potention}を参考に可変抵抗の端子間（1-2間、 2-3間, 1-3間 ）を繋ぎ変えて測定した。
+					\item また、各端子間の可変抵抗のつまみの位置をA, B, C にして計測した。
+					\item 0.25[V]ずつ0~5[V]まで電圧を変化させ続けた。
+					\item 各測定の結果をもとに、散布図を作成した。
+				\end{enumerate}
+				\begin{figure}[h]
+					\centering
+					\includegraphics[keepaspectratio,scale=1.2]{potention_paramerter.pdf}
+					\caption{可変抵抗の詳細}
+					\label{fig:potention}
+				\end{figure}
+			\item CdSセンサーの電圧電流特性
+				\begin{enumerate}[a.]
+					\item $R_0を1k[\Omega]$とし、素子の周りの環境が明るいところ、暗いところ、２箇所で測定をした。
+					\item また、0.25[V]ずつ0~5[V]まで電圧を変化させ続けた。
+					\item 測定結果を散布図にまとめた。 
+				\end{enumerate}
+			\item 力センサーの電圧電流特性
+				\begin{enumerate}[a.]
+					\item $R_0を1k[\Omega]$とし、素子を強く押した時、通常状態の２パターンで測定をした。
+					\item また、0.25[V]ずつ0~5[V]まで電圧を変化させ続けた。
+					\item 測定結果を散布図にまとめた。 
+				\end{enumerate}
+			\item 発光ダイオードの電圧電流特性 
+				\begin{enumerate}[a.]
+					\item $R_0を1k[\Omega]$とし、色の違う４色の発光ダイオードを使用し計測した。
+					\item また、0.25[V]ずつ0~5[V]まで電圧を変化させ続けた。
+					\item 測定結果を散布図にまとめた。 
+				\end{enumerate}
 
 				\begin{figure}[h]
-					\begin{tabular}{cc}
-						\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=1.2]{circuit1.pdf}
-						\caption{課題実験1の回路図}
-						\label{fig:circuit1}
-						
-					\end{minipage}&
-		
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=1.2]{circuit2.pdf}
-						\caption{課題実験2の回路図}
-						\label{fig:circuit2}
-						
-					\end{minipage}
-
-					\end{tabular}
-
-
+					\centering
+					\includegraphics[keepaspectratio,scale=1.2]{ex2_circuit1.pdf}
+					\caption{素子の電圧電流特性計測用回路}
+					\label{fig:circuit3}
 				\end{figure}
-					
+		\end{enumerate}
+		
+
+
 
 
 
@@ -214,7 +262,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 
 		\newpage
 
-			\begin{figure}[htbp]
+			\begin{figure}[h]
 				\begin{tabular}{cc}
 					\begin{minipage}[c]{0.5\linewidth}
 						\centering
@@ -251,7 +299,8 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 				\end{figure}
 
 
-		\begin{table}[h]
+
+		\begin{table}[b]
 			\caption{0[V]の時の出力結果}
 			\centering
 			\label{tab:0}
@@ -288,7 +337,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\end{tabular}
 			\end{table}
 
-		\begin{table}[h]
+		\begin{table}[b]
 			\centering
 			\caption{3.3[V]の時の出力結果}
 			\label{tab:3.3}
@@ -325,7 +374,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\end{tabular}
 			\end{table}
 
-			\begin{table}[h]
+			\begin{table}[b]
 				\centering
 				\caption{5[V]の時の出力結果}
 				\label{tab:5}
@@ -409,9 +458,9 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 	\end{equation}
 
 	
-	\begin{figure}[b]
+	\begin{figure}[h]
 		\centering
-		\includegraphics[keepaspectratio,scale=01.0]{m20060/kinji.pdf}
+		\includegraphics[keepaspectratio,scale=0.25]{m20060/kinji.png}
 		\caption{出力電圧と計測電圧の散布図と近似曲線}
 		\label{fig:kinji}
 	\end{figure}
