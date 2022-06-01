@@ -2,6 +2,7 @@
 
 \usepackage{eee}
 \usepackage{subfig}
+\usepackage{here}
 
 \renewcommand{\labelenumi}{\alph{enumi}}
 \renewcommand{\labelenumii}{\roman{enumii}}
@@ -16,12 +17,12 @@
 	\gakunen{3} % 学年を記述。この行で全体の枠を表示
 	\numTitle{1}{電気電子計測} % 実験番号、タイトルを記述
 	\subTitle{} % サブタイトルがあれば記述
-	\jikkenbi{令和　4年5月12日(木)} % 実験日を記述
-	\jikkenbiII{令和 4年5月19日(木)} % 実験日を記述(二日目がある場合。ない場合はこの行をコメントアウト)
+	\jikkenbi{令和4年5月12日(木)} % 実験日を記述
+	\jikkenbiII{令和4年5月19日(木)} % 実験日を記述(二日目がある場合。ない場合はこの行をコメントアウト)
 	\kyoudou{なし} % 共同実験者名を記述
 	\kyoudouII{} % その他の共同実験者名を記述
 	\yoteibi{5/19}% 予定日を記述
-	\yoteibiII{}% 予定日2を記述
+	\yoteibiII{6/2}% 予定日2を記述
 	\yoteibiIII{}% 予定日3を記述
 	\hanNumberName{1}{3317}{杉山 滉太} % 班番号・学生番号・氏名を記述。この行でタイトルページの描画を終了
 \end{jikkenTitle}
@@ -74,14 +75,14 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 左右対称の釣鐘型に値が分布しているのを正規分布といい、山の頂点に平均値がくる。
 
 \subsubsection{平均値}
-\cite{a}平均値とは$N$個全てのデータの総和を$N$個で割って得られる値で、\weq{heikinchi}で表すことができる。
+平均値とは$N$個全てのデータの総和を$N$個で割って得られる値で、\weq{heikinchi}で表すことができる。\cite{a}
 \begin{equation}
 	\bar{y} = \frac{1}{N}\sum^N_{i = 1}y_i
 	\label{eq:heikinchi}
 \end{equation}		
 
 \subsubsection{標準偏差}
-\cite{a}標準偏差とは平均値を基準に各測定量がどれほどのばらついているかを定量的に表す値で、\weq{hyoujunhensa}で表すことができる。
+標準偏差とは平均値を基準に各測定量がどれほどのばらついているかを定量的に表す値で、\weq{hyoujunhensa}で表すことができる。\cite{a}
 \begin{equation}
 	\sigma = \sqrt{\frac{1}{N - 1}\sum^N_{i = 1}(y_i - \bar{y})^2}
 	\label{eq:hyoujunhensa}
@@ -89,7 +90,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 
 \subsection{近似直線（最小二乗法）}
 %。
-\cite{a}2つの測定データ$y, x$間に一次方程式の関係があるとし、
+2つの測定データ$y, x$間に一次方程式の関係があるとし、
 \begin{equation}
 	y = ax + b
 	\label{eq:aiu}
@@ -108,7 +109,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 	\frac{\partial}{\partial a}E(a,b) &=& 0\\
 	\frac{\partial}{\partial b}E(a,b) &=& 0
 \end{eqnarray}
-から得られる方程式を、それぞれ$a$、$b$について解けば良く、それぞれの解を得るための方程式は次の2つを用いることになる。
+から得られる方程式を、それぞれ$a$、$b$について解けば良く、それぞれの解を得るための方程式は次の2つを用いることになる。\cite{a}
 \begin{equation}
 	a = \frac{\sum_{n=1}^{n}(x_i -\bar{x})(y_i-\bar{y})}{\sum_{n=1}^{n}(x_i-\bar{x})^2}
 	\label{eq:saisyou1}
@@ -145,7 +146,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 	\subsubsection{課題実験１}
 		\begin{enumerate}[a.]
 			\item ブレッドボートを図\ref{fig:circuit1}のように組み立てMyRIOのAポートに接続した。
-			\item 図\ref{fig:circuit1}の端子の値が変化するように、GND, 3.3V, 5Vになぎ変えながら3回実行した。
+			\item 図\ref{fig:circuit1}のAI0の端子を、GND, 3.3V, 5Vになぎ変え計測した。
 			\item 出力した結果をもとにエクセルを使用し、平均値と標準偏差を求めた。
 		\end{enumerate}
 
@@ -157,7 +158,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\item まとめたExcelから二乗平均平方誤差を求めた。
 		\end{enumerate}
 
-		\begin{figure}[h]
+		\begin{figure}[H]
 			\begin{tabular}{cc}
 				\begin{minipage}[c]{0.5\linewidth}
 				\centering
@@ -238,11 +239,10 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 		プログラム\ref{program1}は課題実験１のプログラムであり結果\ref{fig:kekka1}はその出力結果である。
 		表\ref{tab:0}は出力電圧が0[V]の時、表\ref{tab:3.3}は出力電圧が3.3[V]の時、表\ref{tab:5}は出力電圧が5[V]の時の出力結果の表である。
 		また、下の表\ref{tab:hensa}は各電圧ごとの平均値と標準偏差をまとめたものである。
-		この表から平均値や標準偏差は0Vの場合0.007202[V],1.68614[V]、3.3Vの場合3.26400127[V],1.33956[V]、5Vの場合4.9806267[V]3,1.68614[V]となった。
-
+		
 				
 
-		\begin{table}[h]
+		\begin{table}[H]
 			\caption{課題実験１の各電圧ごとの標準偏差}
 			\centering
 			\label{tab:hensa}
@@ -258,49 +258,10 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 				\hline
 			\end{tabular}
 		\end{table}
-		
-
-		\newpage
-
-			\begin{figure}[h]
-				\begin{tabular}{cc}
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=0.5]{circuit1.png}
-						\useMycounter[\label{program1}]課題実験１
-		
-					\end{minipage}&
-		
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=0.5]{circuit2.png}
-						\useMycounter[\label{program2}]課題実験2
-						
-					\end{minipage}\\\\\\
-
-					
-
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=0.4]{kekka1.png}
-						\caption{課題実験1の出力結果}
-						\label{fig:kekka1}
-						
-					\end{minipage}&
-		
-					\begin{minipage}[c]{0.5\linewidth}
-						\centering
-						\includegraphics[keepaspectratio,scale=0.4]{kekka2.png}
-						\caption{課題実験2の出力結果}
-						\label{fig:kekka2}
-						
-					\end{minipage}
-					\end{tabular}
-				\end{figure}
 
 
 
-		\begin{table}[b]
+		\begin{table}[H]
 			\caption{0[V]の時の出力結果}
 			\centering
 			\label{tab:0}
@@ -337,7 +298,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\end{tabular}
 			\end{table}
 
-		\begin{table}[b]
+		\begin{table}[H]
 			\centering
 			\caption{3.3[V]の時の出力結果}
 			\label{tab:3.3}
@@ -374,7 +335,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 			\end{tabular}
 			\end{table}
 
-			\begin{table}[b]
+			\begin{table}[H]
 				\centering
 				\caption{5[V]の時の出力結果}
 				\label{tab:5}
@@ -411,7 +372,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 				\end{tabular}
 			\end{table}
 
-				\begin{table}[h]
+				\begin{table}[H]
 					\centering
 					\caption{課題実験２の出力結果}
 					\label{tab:task2}
@@ -435,9 +396,115 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 					\end{table}
 
 	\subsection{課題実験２の実験結果}
-	　プログラム\ref{program2}は課題実験１のプログラムであり結果\ref{fig:kekka2}はその出力結果である。
+		プログラム\ref{program2}は課題実験１のプログラムであり結果\ref{fig:kekka2}はその出力結果である。
 		表\ref{tab:task2}は課題実験２の出力結果である。
-		またこの結果より二乗平均平方誤差は1.49994[V]となった。
+		またこの結果より二乗平均平方誤差は1.49994[V]となった
+
+
+		\begin{figure}[H]
+			\begin{tabular}{cc}
+				\begin{minipage}[c]{0.5\linewidth}
+					\centering
+					\includegraphics[keepaspectratio,scale=0.5]{circuit1.png}
+					\useMycounter[\label{program1}]課題実験１
+	
+				\end{minipage}&
+	
+				\begin{minipage}[c]{0.5\linewidth}
+					\centering
+					\includegraphics[keepaspectratio,scale=0.5]{circuit2.png}
+					\useMycounter[\label{program2}]課題実験2
+					
+				\end{minipage}\\\\\\
+
+				
+
+				\begin{minipage}[c]{0.5\linewidth}
+					\centering
+					\includegraphics[keepaspectratio,scale=0.4]{kekka1.png}
+					\caption{課題実験1の出力結果}
+					\label{fig:kekka1}
+					
+				\end{minipage}&
+	
+				\begin{minipage}[c]{0.5\linewidth}
+					\centering
+					\includegraphics[keepaspectratio,scale=0.4]{kekka2.png}
+					\caption{課題実験2の出力結果}
+					\label{fig:kekka2}
+					
+				\end{minipage}
+				\end{tabular}
+			\end{figure}
+
+	\subsection{素子の電圧電流特性の実験結果}
+	プログラム\ref{program3}は素子の電圧電流特性を計測するプログラムであり、この実験における結果は図\ref{fig:result}のように出力された。
+	\begin{figure}[H]
+		\centering
+		\includegraphics[keepaspectratio,scale=0.4]{program.png}
+		\useMycounter[\label{program3}]素子の電圧電流特性の実験におけるプログラム
+	\end{figure}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[keepaspectratio,scale=0.4]{result.png}
+		\caption{素子の電圧電流特性の実験における出力結果}
+		\label{fig:result}
+	\end{figure}
+	\subsubsection{固定抵抗の電圧電流特性}
+	図\ref{fig:graph1}は測定素子が固定抵抗の際の実験結果から電圧電流特性の散布図にしたものである。
+		\begin{figure}[H]
+			\centering
+			\includegraphics[keepaspectratio,scale=1.1]{m20060/experoment/eex31.pdf}
+			\caption{固定抵抗の電圧電流特性}
+			\label{fig:graph1}
+		\end{figure}
+	\subsubsection{可変抵抗の電圧電流特性}
+	図\ref{fig:graph2-12}は測定素子が可変抵抗の際かつ、端子間１−２の時の実験結果から電圧電流特性の散布図にしたものである。
+	また、図\ref{fig:graph2-23}は端子間２−３の散布図であり、図\ref{fig:graph2-13}は端子間１−３の散布図である。
+		\begin{figure}[H]
+			\centering
+			\includegraphics[keepaspectratio,scale=1.1]{m20060/experoment/ee32_12.pdf}
+			\caption{可変抵抗（１−２端子間）の電圧電流特性}
+			\label{fig:graph2-12}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[keepaspectratio,scale=1.1]{m20060/experoment/ee32_23.pdf}
+			\caption{可変抵抗（２−３端子間）の電圧電流特性}
+			\label{fig:graph2-23}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[keepaspectratio,scale=1.1]{m20060/experoment/ee32_13.pdf}
+			\caption{可変抵抗（１−３端子間）の電圧電流特性}
+			\label{fig:graph2-13}
+		\end{figure}
+
+	\subsubsection{CdSセンサーの電圧電流特性}
+	図\ref{fig:graph3}は測定素子がCdSセンサーの際の実験結果から電圧電流特性の散布図にしたものである。
+	\begin{figure}[H]
+		\centering
+		\includegraphics[keepaspectratio,scale=1.1]{m20060/experoment/ee33.pdf}
+		\caption{CdSセンサーの電圧電流特性}
+		\label{fig:graph3}
+	\end{figure}
+	\subsubsection{力センサーの電圧電流特性}
+	図\ref{fig:graph4}は測定素子が力センサーの際の実験結果から電圧電流特性の散布図にしたものである。
+	\begin{figure}[H]
+		\centering
+		\includegraphics[keepaspectratio,scale=1.1]{m20060/experoment/ee4.pdf}
+		\caption{力センサーの電圧電流特性}
+		\label{fig:graph4}
+	\end{figure}
+	\subsubsection{発光ダイオードの電圧電流特性}
+	図\ref{fig:graph5}は測定素子が発光ダイオードの際の実験結果から電圧電流特性の散布図にしたものである。
+	\begin{figure}[H]
+		\centering
+		\includegraphics[keepaspectratio,scale=1.1]{m20060/experoment/ex5.pdf}
+		\caption{発光ダイオードの電圧電流特性}
+		\label{fig:graph5}
+	\end{figure}
+
 \section{考察}
 	\subsection{課題実験１の考察}
 	この実験における理想の平均値と標準偏差はそれぞれ5.0[V], 3.0[V], 0[V]である。
@@ -458,12 +525,49 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 	\end{equation}
 
 	
-	\begin{figure}[h]
+	\begin{figure}[H]
 		\centering
 		\includegraphics[keepaspectratio,scale=0.25]{m20060/kinji.png}
 		\caption{出力電圧と計測電圧の散布図と近似曲線}
 		\label{fig:kinji}
 	\end{figure}
+
+	\subsection{素子の電圧電流特性の実験結果の考察}
+	\subsubsection{固定抵抗の考察}
+	$R_0$が$100[\Omega], 1k[\Omega], 10k[\Omega], 100k[\Omega]$の時それぞれ傾きの平均は
+	$0.0010056, 0.0010004, 0.0010075, 0.0009324$となった。この値の逆数をとると、
+	$995[\Omega], 1000[\Omega], 993[\Omega], 1147[\Omega]$となり公称値$1000[\Omega]$と比較するとほぼ$1000[\Omega]$ということがわかる。
+	また、$R_0$の変化が算出した抵抗値に与える影響については、抵抗値が小さすぎても、大きすぎても、誤差が大きくなってしまう点だと考察する。
+
+	\subsubsection{可変抵抗の電圧電流特性の実験結果の考察}
+	各端子間のつまみ位置による電圧電流特性の変化の仕方から、図\ref{fig:potention-inside}のような内部構造を持っていると推測できる。
+	この図において、端子2から繋がっている矢印は可変抵抗のつまみを示している。
+	また、各A, B, Cは実験で用いたつまみの位置を示している。
+	\begin{figure}[H]
+		\centering
+		\includegraphics[keepaspectratio,scale=1.1]{potention_paramerter_inside.pdf}
+		\caption{電圧電流特性から推測した可変抵抗の内部構造}
+		\label{fig:potention-inside}
+	\end{figure}
+
+	\subsubsection{CdSセンサーの電圧電流特性の実験結果の考察}
+	CdSセンサーの抵抗値は光強度が増加することで減少すると考察する。\\
+	“CdS”とは、硫化カドミウム（CdS）を主成分とする光導電素子の一種で、光の当たる量によって抵抗値が変化します。CdSセルの受光部に当たる光の量が多ければ、抵抗値が小さくなります。\cite{x}\\
+	このことから実験結果は正しいことが確認できる。
+
+	\subsubsection{力センサーの電圧電流特性の実験結果の考察}
+	力センサーの抵抗値は力が増加すると減少すると考察する。\\
+	圧電式力センサ（水晶圧電式センサ）は、2組の水晶板と、その間の電極箔で構成されます。水晶は特定の結晶軸方向に力が加わると、その力に比例した電荷を発生するため、
+	この圧電効果を利用してひずみを計測できます。得られる信号は電荷であるため、チャージアンプを用いて値を電圧信号に変換した上で計測を行います。\cite{b}\\
+	このことから実験結果は正しいことが確認できる。
+
+	\subsubsection{発光ダイオードの電圧電流特性の実験結果の考察}
+	発光ダイオードにおいて色の変化とは光の波長に関係する。その光の波長は発光ダイオード内のp-n接合でのホールと電子
+	の結合において電子がエネルギーの高い伝導帯からエネルギーの低い価電子帯に落ちるとき、このエネルギーの差が大きいほど波長が短い光が放出される。
+	よってこのエネルギーの差によって光の色が異なる。図\ref{fig:graph5}から、各色ごとの傾きには大きな特徴などなく一定だが、
+	立ち上がりに関して、赤系と青系の色では赤系の色の方が立ち上がり電圧が低い。
+	また、赤系の色の方が発光ダイオード自体の抵抗も小さいということが考察できる。
+
 
 \section{結論}
 \begin{itemize}
@@ -474,6 +578,9 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 \begin{thebibliography}{9}%参考文献数が10以上の場合は9を99に変更
 	%\bibitem{xxx}の引用を本文中で行うには\cite{xxx}と記述。
 	\bibitem{a} 阿部　武雄,村山　実, 電気・電子計測、森北出版,2022年2月21日
+	\bibitem{x} セミナーeラーニングアイアール技術者教育研究所,"３分でわかる技術の超キホン CdSセルとは？原理と電子回路での使い方を解説!",技術のキホン,2021.04.22,https://engineer-education.com/cds-cell/,(参照2022.05.30)
+	\bibitem{b} HBK,"力センサは、圧電式（ピエゾ式）？それともひずみゲージ式？",計測技術ライブラリ,記載なし,https://www.hbm.com/jp/3719/piezoelectric-or-strain-gauge-based-force-transducers,(参照2022.05.30)
+
 \end{thebibliography}
 
 

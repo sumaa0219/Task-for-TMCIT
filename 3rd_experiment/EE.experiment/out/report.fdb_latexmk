@@ -1,10 +1,10 @@
 # Fdb version 3
-["dvipdf"] 1653912428 "out/report.dvi" "out/report.pdf" "out/report" 1653912429
-  "out/report.dvi" 1653912427 45884 f1a22b5cbf259cd8e192eb5b0505b7d5 "latex"
+["dvipdf"] 1654042448 "out/report.dvi" "out/report.pdf" "out/report" 1654042450
+  "out/report.dvi" 1654042448 55592 c2d44067bf0a649d8f253b2d46d05376 "latex"
   (generated)
   "out/report.pdf"
-["latex"] 1653912425 "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE.experiment/report.tex" "out/report.dvi" "report" 1653912429
-  "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE.experiment/report.tex" 1653912423 21908 e9f171685545009131ffbe73df7ac1a8 ""
+["latex"] 1654042444 "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE.experiment/report.tex" "out/report.dvi" "report" 1654042450
+  "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/EE.experiment/report.tex" 1654042441 28816 8a3b181635234cc1950d69dd9b84d191 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1463434352 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
@@ -39,6 +39,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty" 1647548653 54291 b8e5c600d4aa37b48a740dd2a6c26163 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty" 1647548653 71241 d2cd3a1c5acef9cb31f945b93c0bb6e3 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/cite/cite.sty" 1425427964 26218 19edeff8cdc2bcb704e8051dc55eb5a7 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty" 1578002852 41601 9cf6c5257b1bc7af01a58859749dd37a ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg" 1459978653 1213 620bba36b25224fa9b7e1ccb4ecb76fd ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/graphics.cfg" 1465944070 1224 978390e9c2234eab29404bc21b268d1e ""
@@ -50,6 +51,7 @@
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/lscape.sty" 1622581934 1808 e22d55a4f66156801447813626bd4159 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty" 1636758526 4009 187ea2dc3194cd5a76cd99a8d7a6c4d0 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty" 1258935436 439 d908692e0f19922874ccfe2bf35addc7 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def" 1644269979 36516 7d28e1f3f3d3aa62793a4f21f3e28857 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.cfg" 1585170648 1830 e31effa752c61538383451ae21332364 ""
   "/usr/local/texlive/2022/texmf-dist/tex/latex/listings/listings.sty" 1585170648 80964 64e57373f36316e4a09b517cbf1aba2e ""
@@ -72,10 +74,20 @@
   "jlisting.sty" 1652880987 6311 39acaca7319a5dae73524888cbf7591f ""
   "kekka1.png" 1652880987 128617 d9bf806b878ac2ab6cda3eb954f21983 ""
   "kekka2.png" 1652880987 87672 c557e0a1c117a32a9446a230d3c55d22 ""
+  "m20060/experoment/ee32_12.pdf" 1653545353 20733 a9a9a2fe7e27db1a1670cc27850a46f6 ""
+  "m20060/experoment/ee32_13.pdf" 1653545373 25260 c10c028d03bfacd6fa1ee66c92c0c1cd ""
+  "m20060/experoment/ee32_23.pdf" 1653545384 20772 d084e5fdd6e04d83f5529ab5782a0e20 ""
+  "m20060/experoment/ee33.pdf" 1653957403 20391 ec7e708273cc94e1f26324f5b4234e23 ""
+  "m20060/experoment/ee4.pdf" 1653957450 22441 77768a207216c84d69d2021c9d1e8622 ""
+  "m20060/experoment/eex31.pdf" 1653544983 24254 3c7a40aefe78488733a854edff075b89 ""
+  "m20060/experoment/ex5.pdf" 1654041530 21982 5a72284acade4b93d30ef009fcf0433e ""
   "m20060/kinji.png" 1653873554 137839 9a1454f6f3eb4725a5377dfb7d04f87e ""
-  "out/report.aux" 1653912427 5619 799770d68298d30c5263425128ac439f "latex"
+  "out/report.aux" 1654042448 9171 52bc690da8aa6ca9967bac687e46aa32 "latex"
   "potention_paramerter.pdf" 1653911017 14090 47fa50c4ac12efa8867d43f928d80e1f ""
-  "report.tex" 1653912423 21908 e9f171685545009131ffbe73df7ac1a8 ""
+  "potention_paramerter_inside.pdf" 1653963016 13834 ded8bfa70a50476634507139968d335c ""
+  "program.png" 1653955294 123860 050075a642a36e3212ef9bd85771edcd ""
+  "report.tex" 1654042441 28816 8a3b181635234cc1950d69dd9b84d191 ""
+  "result.png" 1653955280 114975 9ffa50a747c6773b99a46dbe959a9c31 ""
   (generated)
   "out/report.aux"
   "out/report.dvi"

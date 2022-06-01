@@ -322,6 +322,28 @@ INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 INPUT /usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
@@ -400,8 +422,48 @@ INPUT ./kekka2.png
 INPUT ./kekka2.png
 INPUT kekka2.png
 INPUT extractbb -B cropbox -O kekka2.png
+INPUT ./program.png
+INPUT ./program.png
+INPUT program.png
+INPUT extractbb -B cropbox -O program.png
+INPUT ./result.png
+INPUT ./result.png
+INPUT result.png
+INPUT extractbb -B cropbox -O result.png
+INPUT ./m20060/experoment/eex31.pdf
+INPUT ./m20060/experoment/eex31.pdf
+INPUT m20060/experoment/eex31.pdf
+INPUT extractbb -B cropbox -O m20060/experoment/eex31.pdf
+INPUT ./m20060/experoment/ee32_12.pdf
+INPUT ./m20060/experoment/ee32_12.pdf
+INPUT m20060/experoment/ee32_12.pdf
+INPUT extractbb -B cropbox -O m20060/experoment/ee32_12.pdf
+INPUT ./m20060/experoment/ee32_23.pdf
+INPUT ./m20060/experoment/ee32_23.pdf
+INPUT m20060/experoment/ee32_23.pdf
+INPUT extractbb -B cropbox -O m20060/experoment/ee32_23.pdf
+INPUT ./m20060/experoment/ee32_13.pdf
+INPUT ./m20060/experoment/ee32_13.pdf
+INPUT m20060/experoment/ee32_13.pdf
+INPUT extractbb -B cropbox -O m20060/experoment/ee32_13.pdf
+INPUT ./m20060/experoment/ee33.pdf
+INPUT ./m20060/experoment/ee33.pdf
+INPUT m20060/experoment/ee33.pdf
+INPUT extractbb -B cropbox -O m20060/experoment/ee33.pdf
+INPUT ./m20060/experoment/ee4.pdf
+INPUT ./m20060/experoment/ee4.pdf
+INPUT m20060/experoment/ee4.pdf
+INPUT extractbb -B cropbox -O m20060/experoment/ee4.pdf
+INPUT ./m20060/experoment/ex5.pdf
+INPUT ./m20060/experoment/ex5.pdf
+INPUT m20060/experoment/ex5.pdf
+INPUT extractbb -B cropbox -O m20060/experoment/ex5.pdf
 INPUT ./m20060/kinji.png
 INPUT ./m20060/kinji.png
 INPUT m20060/kinji.png
 INPUT extractbb -B cropbox -O m20060/kinji.png
+INPUT ./potention_paramerter_inside.pdf
+INPUT ./potention_paramerter_inside.pdf
+INPUT potention_paramerter_inside.pdf
+INPUT extractbb -B cropbox -O potention_paramerter_inside.pdf
 INPUT out/report.aux

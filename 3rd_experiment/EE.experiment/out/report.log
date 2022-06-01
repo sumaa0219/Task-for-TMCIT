@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  30 MAY 2022 21:07
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  1 JUN 2022 09:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -211,40 +211,47 @@ Package caption Info: listings package is loaded.
 \c@lotdepth=\count293
 \sf@top=\skip57
 \sf@bottom=\skip58
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty) (/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count294
+\float@exts=\toks26
+\float@box=\box71
+\@float@everytoks=\toks27
+\@floatcapt=\box72
 )
-\c@mycounter=\count294
+\c@mycounter=\count295
 (/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 File: l3backend-dvipdfmx.def 2022-02-07 L3 backend support: dvipdfmx
 (|extractbb --version)
-\c__kernel_sys_dvipdfmx_version_int=\count295
-\l__color_backend_stack_int=\count296
-\g__color_backend_stack_int=\count297
-\g__graphics_track_int=\count298
-\l__pdf_internal_box=\box71
-\g__pdf_backend_object_int=\count299
-\g__pdf_backend_annotation_int=\count300
-\g__pdf_backend_link_int=\count301
+\c__kernel_sys_dvipdfmx_version_int=\count296
+\l__color_backend_stack_int=\count297
+\g__color_backend_stack_int=\count298
+\g__graphics_track_int=\count299
+\l__pdf_internal_box=\box73
+\g__pdf_backend_object_int=\count300
+\g__pdf_backend_annotation_int=\count301
+\g__pdf_backend_link_int=\count302
 ) (out/report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
 *geometry* detected driver: dvipdfm
 *geometry* verbose mode - [ preamble ] result:
 * driver: dvipdfm
@@ -278,26 +285,27 @@ LaTeX Font Info:    ... okay on input line 12.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count302
+\c@lstlisting=\count303
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 15.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14.4> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 15.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 15.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 15.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 16.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10.95> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 16.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 16.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 17.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <20.74> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 16.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 17.
 [1
 
 ] [1] [2]
@@ -306,12 +314,9 @@ File: circuit1.pdf Graphic file (type pdf)
 File: circuit2.pdf Graphic file (type pdf)
 <circuit2.pdf>
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 161--179
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 162--180
 [][][][] 
  []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [3]
 File: potention_paramerter.pdf Graphic file (type pdf)
@@ -320,9 +325,21 @@ File: potention_paramerter.pdf Graphic file (type pdf)
 File: ex2_circuit1.pdf Graphic file (type pdf)
 <ex2_circuit1.pdf>
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (16.26895pt too wide) in paragraph at lines 268--299
+ [][][][] 
+ []
 
 [5]
+Overfull \hbox (16.26895pt too wide) in paragraph at lines 305--336
+ [][][][] 
+ []
+
+[6]
+Overfull \hbox (16.26895pt too wide) in paragraph at lines 342--373
+ [][][][] 
+ []
+
+[7]
 File: circuit1.png Graphic file (type bmp)
 <circuit1.png>
 File: circuit2.png Graphic file (type bmp)
@@ -332,49 +349,65 @@ File: kekka1.png Graphic file (type bmp)
 File: kekka2.png Graphic file (type bmp)
 <kekka2.png>
 
-Overfull \hbox (15.10764pt too wide) in paragraph at lines 293--294
+Overfull \hbox (15.10764pt too wide) in paragraph at lines 432--433
  [][] 
  []
 
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 266--299
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 405--438
 [][][][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (16.26895pt too wide) in paragraph at lines 307--338
- [][][][] 
- []
-
-
-Overfull \hbox (16.26895pt too wide) in paragraph at lines 344--375
- [][][][] 
- []
-
-
-Overfull \hbox (16.26895pt too wide) in paragraph at lines 381--412
- [][][][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+[8]
+File: program.png Graphic file (type bmp)
+<program.png>
+File: result.png Graphic file (type bmp)
+<result.png>
+[9]
+File: m20060/experoment/eex31.pdf Graphic file (type pdf)
+<m20060/experoment/eex31.pdf>
+[10]
+File: m20060/experoment/ee32_12.pdf Graphic file (type pdf)
+<m20060/experoment/ee32_12.pdf>
+File: m20060/experoment/ee32_23.pdf Graphic file (type pdf)
+<m20060/experoment/ee32_23.pdf>
+File: m20060/experoment/ee32_13.pdf Graphic file (type pdf)
+<m20060/experoment/ee32_13.pdf>
+[11]
+File: m20060/experoment/ee33.pdf Graphic file (type pdf)
+<m20060/experoment/ee33.pdf>
+[12]
+File: m20060/experoment/ee4.pdf Graphic file (type pdf)
+<m20060/experoment/ee4.pdf>
+File: m20060/experoment/ex5.pdf Graphic file (type pdf)
+<m20060/experoment/ex5.pdf>
+[13]
 File: m20060/kinji.png Graphic file (type bmp)
 <m20060/kinji.png>
+[14]
+Overfull \hbox (16.94156pt too wide) in paragraph at lines 537--541
+[]$\OML/cmm/m/it/10.95 R[]$ \JY1/mc/m/n/10.95 が $\OT1/cmr/m/n/10.95 100[
+]\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 [
+]\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 10\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 [
+]\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 100\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 [
+]$ \JY1/mc/m/n/10.95 の時それぞれ傾きの平均は $\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0010056\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0010004\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0010075\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 0009324$
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+File: potention_paramerter_inside.pdf Graphic file (type pdf)
+<potention_paramerter_inside.pdf>
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 582--583
+\JY1/mc/m/n/10.95 なし\OT1/cmr/m/n/10.95 ,https://www.hbm.com/jp/3719/piezoelectric-or-strain-gauge-based-force-transducers,(\JY1/mc/m/n/10.95 参照
+ []
 
-[6] [7] [8] [9] [10] [11] (out/report.aux) ) 
+[16] (out/report.aux) ) 
 Here is how much of TeX's memory you used:
- 5659 strings out of 478724
- 93362 string characters out of 5858392
- 618177 words of memory out of 5000000
- 24038 multiletter control sequences out of 15000+600000
+ 5811 strings out of 478724
+ 96718 string characters out of 5858392
+ 597177 words of memory out of 5000000
+ 24167 multiletter control sequences out of 15000+600000
  482334 words of font info for 79 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 70i,13n,79p,318b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 70i,13n,79p,318b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (12 pages, 45884 bytes).
+Output written on out/report.dvi (17 pages, 55592 bytes).
