@@ -1,0 +1,29 @@
+# Fdb version 3
+["dvipdf"] 0 "out/beforquestion.dvi" "out/beforquestion.pdf" "out/beforquestion" 0
+  "out/beforquestion.dvi" 0 -1 0 "latex"
+  (generated)
+  "out/beforquestion.pdf"
+["latex"] 1654128361 "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/diode/beforquestion.tex" "out/beforquestion.dvi" "beforquestion" 1654128362
+  "/Users/sugiyamakouta/Desktop/workDir/3rd_experiment/diode/beforquestion.tex" 1654128358 115 4ce6d8eb81465bee450f37c64de7af45 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1463434352 1196 1be730212205a270378fba11a44765dc ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm" 1463434352 856 39c171483fe1bb7d0e1368980c0c205b ""
+  "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption.sty" 1647548653 54291 b8e5c600d4aa37b48a740dd2a6c26163 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.sty" 1647548653 71241 d2cd3a1c5acef9cb31f945b93c0bb6e3 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/float/float.sty" 1137110151 6749 16d2656a1984957e674b149555f1ea1d ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty" 1622581934 2671 4de6781a30211fe0ea4c672e4a2a8166 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/here/here.sty" 1258935436 439 d908692e0f19922874ccfe2bf35addc7 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def" 1644269979 36516 7d28e1f3f3d3aa62793a4f21f3e28857 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/latex/subfig/subfig.sty" 1158586182 21369 9ef165ca6df8815c92e693146a376c92 ""
+  "/usr/local/texlive/2022/texmf-dist/tex/platex/base/jarticle.cls" 1601501154 25873 fd34d08164a3ea7afd6bc7fe99629a3d ""
+  "/usr/local/texlive/2022/texmf-dist/tex/platex/base/jsize11.clo" 1601501154 8623 02e6f686ac653e2df9e7d43b25d5e482 ""
+  "/usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf" 1646502317 40171 cdab547de63d26590bebb3baff566530 ""
+  "/usr/local/texlive/2022/texmf-var/web2c/eptex/platex.fmt" 1651017159 2827149 97596a48846d892944ef80705a5b959c ""
+  "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
+  "beforquestion.tex" 1654128358 115 4ce6d8eb81465bee450f37c64de7af45 ""
+  "out/beforquestion.aux" 1654128362 8 a94a2480d3289e625eea47cd1b285758 "latex"
+  (generated)
+  "out/beforquestion.aux"
+  "out/beforquestion.dvi"
+  "out/beforquestion.log"
