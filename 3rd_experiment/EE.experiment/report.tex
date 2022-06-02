@@ -75,14 +75,14 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 左右対称の釣鐘型に値が分布しているのを正規分布といい、山の頂点に平均値がくる。
 
 \subsubsection{平均値}
-平均値とは$N$個全てのデータの総和を$N$個で割って得られる値で、\weq{heikinchi}で表すことができる。\cite{a}
+平均値とは$N$個全てのデータの総和を$N$個で割って得られる値で、\weq{heikinchi}で表すことができる\cite{a}。
 \begin{equation}
 	\bar{y} = \frac{1}{N}\sum^N_{i = 1}y_i
 	\label{eq:heikinchi}
 \end{equation}		
 
 \subsubsection{標準偏差}
-標準偏差とは平均値を基準に各測定量がどれほどのばらついているかを定量的に表す値で、\weq{hyoujunhensa}で表すことができる。\cite{a}
+標準偏差とは平均値を基準に各測定量がどれほどのばらついているかを定量的に表す値で、\weq{hyoujunhensa}で表すことができる\cite{a}。
 \begin{equation}
 	\sigma = \sqrt{\frac{1}{N - 1}\sum^N_{i = 1}(y_i - \bar{y})^2}
 	\label{eq:hyoujunhensa}
@@ -109,7 +109,7 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 	\frac{\partial}{\partial a}E(a,b) &=& 0\\
 	\frac{\partial}{\partial b}E(a,b) &=& 0
 \end{eqnarray}
-から得られる方程式を、それぞれ$a$、$b$について解けば良く、それぞれの解を得るための方程式は次の2つを用いることになる。\cite{a}
+から得られる方程式を、それぞれ$a$、$b$について解けば良く、それぞれの解を得るための方程式は次の2つを用いることになる\cite{a}。
 \begin{equation}
 	a = \frac{\sum_{n=1}^{n}(x_i -\bar{x})(y_i-\bar{y})}{\sum_{n=1}^{n}(x_i-\bar{x})^2}
 	\label{eq:saisyou1}
@@ -182,18 +182,18 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 
 	\subsubsection{素子の電圧電流特性}
 	各種実験は図\ref{fig:circuit3}の回路を使用し、測定対象素子の部分を変更しながら行った。
-		\begin{enumerate}[1.]
+		\begin{enumerate}[a.]
 			\item 固定抵抗の電圧電流特性
-				\begin{enumerate}[a.]
+				\begin{enumerate}[1.]
 					\item 観測対象素子を固定抵抗$1k[\Omega]$ とすた。
 					\item $R_0$の抵抗値を$100[\Omega], 1k[\Omega], 10k[\Omega], 100k[\Omega]$と変化させた。
-					\item 0.25[V]ずつ0~5[V]まで電圧を変化させ続け、その結果をもとに各抵抗における散布図を作成した。
+					\item 0.25[V]ずつ0から5[V]まで電圧を変化させ続け、その結果をもとに各抵抗における散布図を作成した。
 				\end{enumerate}
 			\item 可変抵抗の電圧電流特性
-				\begin{enumerate}[a.]
+				\begin{enumerate}[1.]
 					\item $R_0を1k[\Omega]$とし、図\ref{fig:potention}を参考に可変抵抗の端子間（1-2間、 2-3間, 1-3間 ）を繋ぎ変えて測定した。
 					\item また、各端子間の可変抵抗のつまみの位置をA, B, C にして計測した。
-					\item 0.25[V]ずつ0~5[V]まで電圧を変化させ続けた。
+					\item 0.25[V]ずつ0から5[V]まで電圧を変化させ続けた。
 					\item 各測定の結果をもとに、散布図を作成した。
 				\end{enumerate}
 				\begin{figure}[h]
@@ -203,21 +203,21 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 					\label{fig:potention}
 				\end{figure}
 			\item CdSセンサーの電圧電流特性
-				\begin{enumerate}[a.]
+				\begin{enumerate}[1.]
 					\item $R_0を1k[\Omega]$とし、素子の周りの環境が明るいところ、暗いところ、２箇所で測定をした。
-					\item また、0.25[V]ずつ0~5[V]まで電圧を変化させ続けた。
+					\item また、0.25[V]ずつ0から5[V]まで電圧を変化させ続けた。
 					\item 測定結果を散布図にまとめた。 
 				\end{enumerate}
 			\item 力センサーの電圧電流特性
-				\begin{enumerate}[a.]
+				\begin{enumerate}[1.]
 					\item $R_0を1k[\Omega]$とし、素子を強く押した時、通常状態の２パターンで測定をした。
-					\item また、0.25[V]ずつ0~5[V]まで電圧を変化させ続けた。
+					\item また、0.25[V]ずつ0から5[V]まで電圧を変化させ続けた。
 					\item 測定結果を散布図にまとめた。 
 				\end{enumerate}
 			\item 発光ダイオードの電圧電流特性 
-				\begin{enumerate}[a.]
+				\begin{enumerate}[1.]
 					\item $R_0を1k[\Omega]$とし、色の違う４色の発光ダイオードを使用し計測した。
-					\item また、0.25[V]ずつ0~5[V]まで電圧を変化させ続けた。
+					\item また、0.25[V]ずつ0から5[V]まで電圧を変化させ続けた。
 					\item 測定結果を散布図にまとめた。 
 				\end{enumerate}
 
@@ -398,43 +398,49 @@ myRIOの5V、3.3V、GND端子及びAnalog I/O、Digital I/Oの端子が、ブレ
 	\subsection{課題実験２の実験結果}
 		プログラム\ref{program2}は課題実験１のプログラムであり結果\ref{fig:kekka2}はその出力結果である。
 		表\ref{tab:task2}は課題実験２の出力結果である。
-		またこの結果より二乗平均平方誤差は1.49994[V]となった
+		またこの結果より二乗平均平方誤差は1.49994[V]となった。
+		\newpage
 
 
 		\begin{figure}[H]
 			\begin{tabular}{cc}
-				\begin{minipage}[c]{0.5\linewidth}
+				\begin{minipage}[b]{0.5\linewidth}
 					\centering
 					\includegraphics[keepaspectratio,scale=0.5]{circuit1.png}
 					\useMycounter[\label{program1}]課題実験１
 	
 				\end{minipage}&
 	
-				\begin{minipage}[c]{0.5\linewidth}
+				\begin{minipage}[b]{0.5\linewidth}
 					\centering
 					\includegraphics[keepaspectratio,scale=0.5]{circuit2.png}
 					\useMycounter[\label{program2}]課題実験2
 					
-				\end{minipage}\\\\\\
-
-				
-
-				\begin{minipage}[c]{0.5\linewidth}
-					\centering
-					\includegraphics[keepaspectratio,scale=0.4]{kekka1.png}
-					\caption{課題実験1の出力結果}
-					\label{fig:kekka1}
-					
-				\end{minipage}&
-	
-				\begin{minipage}[c]{0.5\linewidth}
-					\centering
-					\includegraphics[keepaspectratio,scale=0.4]{kekka2.png}
-					\caption{課題実験2の出力結果}
-					\label{fig:kekka2}
-					
 				\end{minipage}
+
+			\end{tabular}
+				
+			\end{figure}
+			
+			\begin{figure}[H]
+				\begin{tabular}{cc}
+					\begin{minipage}[b]{0.45\linewidth}
+						\centering
+						\includegraphics[keepaspectratio,scale=0.4]{kekka1.png}
+						\caption{課題実験1の出力結果}
+						\label{fig:kekka1}
+						
+					\end{minipage}&
+		
+					\begin{minipage}[b]{0.45\linewidth}
+						\centering
+						\includegraphics[keepaspectratio,scale=0.4]{kekka2.png}
+						\caption{課題実験2の出力結果}
+						\label{fig:kekka2}
+						
+					\end{minipage}
 				\end{tabular}
+				
 			\end{figure}
 
 	\subsection{素子の電圧電流特性の実験結果}

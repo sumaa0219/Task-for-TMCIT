@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  1 JUN 2022 16:46
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.4.27)  2 JUN 2022 11:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -339,53 +339,57 @@ Overfull \hbox (16.26895pt too wide) in paragraph at lines 342--373
  [][][][] 
  []
 
-[7]
+[7] [8] [9]
 File: circuit1.png Graphic file (type bmp)
 <circuit1.png>
 File: circuit2.png Graphic file (type bmp)
 <circuit2.png>
-File: kekka1.png Graphic file (type bmp)
-<kekka1.png>
-File: kekka2.png Graphic file (type bmp)
-<kekka2.png>
 
-Overfull \hbox (15.10764pt too wide) in paragraph at lines 432--433
- [][] 
- []
-
-
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 405--438
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 406--422
 [][][][] 
  []
 
-[8]
+File: kekka1.png Graphic file (type bmp)
+<kekka1.png>
+
+Overfull \hbox (24.03719pt too wide) in paragraph at lines 429--430
+ [][] 
+ []
+
+File: kekka2.png Graphic file (type bmp)
+<kekka2.png>
+
+Overfull \hbox (39.29396pt too wide) in paragraph at lines 437--438
+ [][] 
+ []
+
 File: program.png Graphic file (type bmp)
 <program.png>
 File: result.png Graphic file (type bmp)
 <result.png>
-[9]
+[10]
 File: m20060/experoment/eex31.pdf Graphic file (type pdf)
 <m20060/experoment/eex31.pdf>
-[10]
+[11]
 File: m20060/experoment/ee32_12.pdf Graphic file (type pdf)
 <m20060/experoment/ee32_12.pdf>
 File: m20060/experoment/ee32_23.pdf Graphic file (type pdf)
 <m20060/experoment/ee32_23.pdf>
 File: m20060/experoment/ee32_13.pdf Graphic file (type pdf)
 <m20060/experoment/ee32_13.pdf>
-[11]
+[12]
 File: m20060/experoment/ee33.pdf Graphic file (type pdf)
 <m20060/experoment/ee33.pdf>
-[12]
+[13]
 File: m20060/experoment/ee4.pdf Graphic file (type pdf)
 <m20060/experoment/ee4.pdf>
 File: m20060/experoment/ex5.pdf Graphic file (type pdf)
 <m20060/experoment/ex5.pdf>
-[13]
+[14]
 File: m20060/kinji.png Graphic file (type bmp)
 <m20060/kinji.png>
-[14]
-Overfull \hbox (16.94156pt too wide) in paragraph at lines 537--541
+[15]
+Overfull \hbox (16.94156pt too wide) in paragraph at lines 543--547
 []$\OML/cmm/m/it/10.95 R[]$ \JY1/mc/m/n/10.95 が $\OT1/cmr/m/n/10.95 100[
 ]\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 [
 ]\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 10\OML/cmm/m/it/10.95 k\OT1/cmr/m/n/10.95 [
@@ -395,12 +399,12 @@ Overfull \hbox (16.94156pt too wide) in paragraph at lines 537--541
 
 File: potention_paramerter_inside.pdf Graphic file (type pdf)
 <potention_paramerter_inside.pdf>
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 582--583
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 588--589
 \JY1/mc/m/n/10.95 なし\OT1/cmr/m/n/10.95 ,https://www.hbm.com/jp/3719/piezoelectric-or-strain-gauge-based-force-transducers,(\JY1/mc/m/n/10.95 参照
  []
 
-[16] (out/report.aux) ) 
+[17] (out/report.aux) ) 
 Here is how much of TeX's memory you used:
  5811 strings out of 478724
  96718 string characters out of 5858392
@@ -410,4 +414,4 @@ Here is how much of TeX's memory you used:
  929 hyphenation exceptions out of 8191
  70i,13n,79p,318b,519s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on out/report.dvi (17 pages, 55592 bytes).
+Output written on out/report.dvi (18 pages, 55812 bytes).
